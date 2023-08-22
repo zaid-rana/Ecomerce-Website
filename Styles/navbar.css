@@ -1,0 +1,69 @@
+nav {
+    width: 100vw;
+    overflow-x: none;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+.navcontainer {
+    width: 100vw;
+    /* background-color: rgb(100, 100, 200); */
+    background-color: #230d42;
+    background-image: linear-gradient(160deg, #230d42 0%, #481616 100%);
+    min-height: 20px;
+    display: flex;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.navcontainer {
+    box-shadow: 9px 5px 20px  #230d42;
+}
+
+#navlogo {
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navlist {
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    font-size: 1.5rem;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+#navitems {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#input1 {
+
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 1px;
+    background-color: rgb(60, 54, 54);
+}
+
+#button1 {
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+}
+

@@ -1,0 +1,103 @@
+
+.container {
+    top: 20%;
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* Three equal columns */
+    grid-gap: 30px; /* Add some spacing between items */
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.box {
+    width: 200px;
+    height: 288px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 0.5px solid #d8d8d8;
+    background: rgba(255, 255, 255, 0);
+    background-color: #e5e5e5;
+    box-shadow: 8px 1px 30px 2px black;
+    
+}
+
+/* .buy .overlay {
+    position: absolute;
+    top: 120px;
+    max-width: 170px;
+    height: 195px;
+    background-color: rgba(49, 46, 46, 0.304);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.buy:hover .overlay {
+    opacity: 1;
+} */
+
+
+
+.innerbox {
+    margin-left: 7px;
+}
+
+.inbox {
+    display: flex;
+    width: 185px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+     
+}
+
+.inbox img {
+    max-width: 170px;
+    height: 195px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: lightgray -87px -30.721px / 161.875% 177.149% no-repeat;
+    border-radius: 12px 12px 0px 0px;
+    background: #2A2D3A;
+}
+
+.text {
+    top: 15px;
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.text p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 10;
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
